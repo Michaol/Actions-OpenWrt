@@ -19,3 +19,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add OpenClash
 # git clone -b master https://github.com/vernesong/OpenClash package/openclash
+
+# Add TTNODE
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean
