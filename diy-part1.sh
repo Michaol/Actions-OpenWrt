@@ -22,3 +22,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add TTNODE
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/ttnode
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
