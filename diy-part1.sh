@@ -23,7 +23,7 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 # sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
 
 # Add TTNODE
-git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/ttnode
+# git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/ttnode
 
 # Add Argon Theme
 rm -rf package/lean/luci-theme-argon
