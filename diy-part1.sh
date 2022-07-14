@@ -19,8 +19,8 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 # Add OpenClash
-git clone -b master https://github.com/vernesong/OpenClash.git package/openclash
-sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
+# git clone -b master https://github.com/vernesong/OpenClash.git package/openclash
+# sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
 
 # Add TTNODE
 # git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/ttnode
