@@ -26,5 +26,5 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 # git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/ttnode
 
 # Add Argon Theme
-rm -rf feeds/luci/themes/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
+# rm -rf feeds/luci/themes/luci-theme-argon
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
