@@ -18,6 +18,10 @@
 # sed -i '$a src-git jingdong https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
+#Add Passwall seed
+sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' feeds.conf.default
+sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
+
 # Add OpenClash
 # git clone -b master https://github.com/vernesong/OpenClash.git package/openclash
 # sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
